@@ -1,2 +1,2 @@
 # JavaScript
- Começando o meu tão esperado curso de JavaScript.
+ Começando a aprender a linguagem JavaScript.
