@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <div id="calc">
+        <p>Escreva 2 números abaixo:
+            <br>
+            <input type="number" name="number1" id="n1">
+            <br>
+            <input type="number" name="number2" id="n2">
+        </p> 
+        <br>
+        <input checked type="radio" name="" id="box1"> <b>+</b>
+        <input type="radio" name="" id="box2"> <b>-</b>
+        <input type="radio" name="" id="box3"><b>*</b>
+        <input type="radio" name="" id="box4"><b>/</b>
+        <br>
+        <input type="submit" value="Calcular" onclick="calcular()">
+        <h1 id="resultado"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
